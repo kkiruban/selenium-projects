@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="E:\Kiruba\software\java" version="1.8.0_131">
+<bootpath>
+<entry path="E:\Kiruba\software\java\lib\resources.jar"/>
+<entry path="E:\Kiruba\software\java\lib\rt.jar"/>
+<entry path="E:\Kiruba\software\java\lib\sunrsasign.jar"/>
+<entry path="E:\Kiruba\software\java\lib\jsse.jar"/>
+<entry path="E:\Kiruba\software\java\lib\jce.jar"/>
+<entry path="E:\Kiruba\software\java\lib\charsets.jar"/>
+<entry path="E:\Kiruba\software\java\lib\jfr.jar"/>
+<entry path="E:\Kiruba\software\java\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="E:\Kiruba\software\java\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="E:\Kiruba\software\java\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

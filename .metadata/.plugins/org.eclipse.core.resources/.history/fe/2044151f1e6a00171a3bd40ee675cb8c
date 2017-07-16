@@ -1,0 +1,17 @@
+package com.testing.samplewebdriver;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class TestSampleOne {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.gecko.driver","E:\\Kiruba\\software\\geckodriver.exe");
+		WebDriver driver = new FirefoxDriver();
+		driver.get("https://test.salesforce.com/");
+		Thread.sleep(1000);
+		
+	}
+
+}

@@ -1,0 +1,32 @@
+package com.testing.samplewebdriver;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class TestSampleOne {
+
+	public static void main(String[] args) throws InterruptedException {
+		//setting system property to lanuch firefox browser
+		System.setProperty("webdriver.gecko.driver","E:\\Kiruba\\software\\geckodriver.exe");
+		//creating object for firefox driver
+		WebDriver driver = new FirefoxDriver();
+		//code to launch a url
+		driver.get("https://test.salesforce.com/");
+		//normal wait
+		Thread.sleep(1000);
+		//using find element by id to fill usernmae text box
+		driver.findElement(By.id("username")).sendKeys("test");
+		//using find element by id to fill usernmae text box
+				driver.findElement(By.id("username")).sendKeys("test");
+		//implict wait
+		
+		
+		//explict wait
+		
+		
+		//to quit the current browser
+		driver.quit();
+	}
+
+}
